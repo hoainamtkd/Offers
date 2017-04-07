@@ -1,5 +1,5 @@
 <div class="categories" style="padding-top: 1px;">
-	<div class="title-categories" >Categories</div>
+	<div class="title-categories" >Danh Mục</div>
 	<ul class="menu-mega">
 		<li><a href="">Electronic</a></li>
 		<li><a href="">Canon Camera</a></li>

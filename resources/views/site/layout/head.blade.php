@@ -3,7 +3,8 @@
 <head>
 	<title></title>
 	<link type="text/css" rel="stylesheet" href="{{asset('public/admin/css/bootstrap.css')}}">
-	<script type="text/javascript" src="{{asset('public/admin/js/jquery-1.10.2.min.js')}}"></script>
+	<script src="{{asset('public/admin/js/jquery-1.10.2.min.js')}}"></script>
+
 	<link type="text/css" rel="stylesheet" href="{{asset('public/admin/css/font-awesome.css')}}">
 	<link type="text/css" rel="stylesheet" href="{{asset('public/admin/css/responsive.css')}}">
 	<link rel="stylesheet" href="{{asset('public/site/css/style.css')}}">

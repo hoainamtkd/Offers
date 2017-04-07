@@ -2,14 +2,11 @@
 Route::get('auth/login',function(){
 	return view('auth/index');
 });
-Route::get('slider',function(){
-	return view('test/slider');
-});
 Route::get('',function(){
 	return view('site/page/index');
 });
 Route::get('details',function(){
-	return view('site/page/details');
+	return view('site/page/detail');
 });
 Route::get('categories',function(){
 	return view('site/page/cate');
