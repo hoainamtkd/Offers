@@ -4,10 +4,6 @@
 		<!-- Header TOp -->
 		@include('site.layout.header')
 		@include('site.layout.menu')
-	<!-- 	<div class="container banner-top">
-			@include('site.layout.banner_top')
-		</div> -->
-		<div class="clearfix"></div>
 		<div class="container content-height">
 			<div class="col-md-2 content-left">
 				@include('site.layout.left')
@@ -44,5 +40,6 @@
 <script type="text/javascript" src="{{asset('public/site/js/owl.carousel.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('public/site/js/ui-carousel.js')}}"></script>
 <script src="{{asset('public/admin/js/lib/bootstrap.js')}}"></script>
+<script src="{{asset('public/site/js/responsive.js')}}"></script>
 </body>
 </html>

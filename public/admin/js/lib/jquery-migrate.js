@@ -16,10 +16,6 @@ jQuery.migrateWarnings = [];
 // Set to true to prevent console output; migrateWarnings still maintained
 // jQuery.migrateMute = false;
 
-// Show a message on the console so devs know we're active
-if ( !jQuery.migrateMute && window.console && window.console.log ) {
-	window.console.log("JQMIGRATE: Logging is active");
-}
 
 // Set to false to disable traces that appear with warnings
 if ( jQuery.migrateTrace === undefined ) {

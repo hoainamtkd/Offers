@@ -2,10 +2,10 @@
 	<div class="header-top">
 		<div class="container">
 			<div class="col-md-12 ">
-				<div class="col-md-6 col-sm-6 hidden-xs">
+				<div class="col-md-8 col-sm-8 hidden-xs">
 					<div class="report-service">Wants to explore Upcoming Deals on Weekends ?</div>
 				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="pull-right">
 						<ul class="header-relative">
 							<li class="header_register"><a href="">Đăng Ký </a></li>
@@ -19,7 +19,7 @@
 	<div class="header-middle full-header active">
 		<div class="container">
 			<div class="row">
-				<div class="header_logo headermiddle col-md-3 col-lg-3">
+				<div class="header_logo headermiddle col-md-3 col-xs-12 col-lg-3">
 					<div class="logo text-center">
 						<a class="header-logo" href="{{url('/')}}" >
 							<img src="{{asset('upload/images/logo.png')}}" alt="Header Logo">
@@ -41,7 +41,34 @@
 						</form>
 					</div>
 				</div>
-				
+				<div class="col-md-4 col-xs-12 col-sm-12">
+					<div class="col-md-6 hidden-xs hidden-sm col-lg-6 ttcmsheaderservices header_right">
+						<div class="ttsupport">
+							<div class="ttcontent_inner">
+								<div class="service">
+									<div class="ttsupport_img service-icon"></div>
+									<div class="service-content">
+										<div class="service-title">Hotline</div>
+										<div class="service-desc">088-888-8888</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 hidden-sm  hidden-xs col-lg-6 ttcmsheaderservices header_right">
+						<div class="ttsupport">
+							<div class="ttcontent_inner">
+								<div class="service">
+									<div class="ttsupport_img service-icon"></div>
+									<div class="service-content">
+										<div class="service-title">Hổ Trợ Trực Tuyến</div>
+										<div class="service-desc">088-888-8888</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

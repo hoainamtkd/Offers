@@ -1681,7 +1681,6 @@
 		</div>
 	</div>
 </div>
-v
 <div class="box box-block bg-white mb-0">
 	<h5>
 		<i class="fa fa-codepen"></i> <span>Furniture </span>

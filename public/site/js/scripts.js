@@ -38,21 +38,25 @@ jQuery.fn.selText = function() {
     });
     // End menu
     var width = $(window).width();
-    if(width < 968 && width > 320){
+    if(width < 968){
         $('.my-group').attr('style','margin: 0px 10px 10px 0px;');
         $('.content-center').attr('style','padding-left:0px;');
+        $('#social_block').removeClass('pull-right').css('text-align','center');
     }else{
         $('.my-group').attr('style','margin:25px 0;');
         $('.content-center').attr('style','padding-left:15px;');
+        $('#social_block').addClass('pull-right').css('text-align','right');
     }
     $(window).resize(function() {
         var width = $(window).width();
-        if(width < 968 && width > 320){
+        if(width < 968){
             $('.my-group').attr('style','margin: 0px 10px 10px 0px;');
             $('.content-center').attr('style','padding-left:0px;');
+            $('#social_block').removeClass('pull-right').css('text-align','center');
         }else{
             $('.my-group').attr('style','margin:25px 0;');
             $('.content-center').attr('style','padding-left:15px;');
+            $('#social_block').addClass('pull-right').css('text-align','right');
         }
     });
 
@@ -104,3 +108,22 @@ jQuery.fn.selText = function() {
         });
     });
     // End fix header to top
+    // Show Cate
+
+    $('.title-categories-rs').click(function(){
+        var display = $('.show-categories').val();
+        if(display == 0){
+            $('.menu-cate-show').slideDown('fast');
+            $('.list-cate').removeAttr('class').addClass('fa fa-angle-up pull-right list-cate');
+            $('.show-categories').val(1);
+            $('.title-categories-rs').attr('style','margin-bottom: -10px;');
+
+        }else{
+            $('.menu-cate-show').slideUp('fast');
+            $('.list-cate').removeAttr('class').addClass('fa fa-angle-down pull-right list-cate');
+            $('.show-categories').val(0);
+            $('.title-categories-rs').attr('style','margin-bottom: 10px;')
+        }
+            
+    });
+    // End Show Cate        }

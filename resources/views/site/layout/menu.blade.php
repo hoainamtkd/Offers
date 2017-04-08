@@ -1,6 +1,6 @@
 <nav class="menu-main hidden-xs hidden-sm">
 	<div class="container">
-		<ul class="main-nav">
+		<ul class="main-nav col-md-12">
 			<li class="active main-nav__branding">
 				<a href="#">Danh Mục<i class="fa fa-angle-down pull-right drop-down-cate"></i></a>
 				<ul class="branding_menu">

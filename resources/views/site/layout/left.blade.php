@@ -1,6 +1,67 @@
-<div class="categories" style="padding-top: 1px;">
-	<div class="title-categories" >Danh Mục</div>
+<div class="categories hidden-xs hidden-sm" style="padding-top: 1px;">
+	<div class="title-categories">Danh Mục</div>
 	<ul class="menu-mega">
+		<li><a href="">Electronic</a></li>
+		<li><a href="">Canon Camera</a></li>
+		<li><a href="">Sony Camera</a></li>
+		<li><a href="">Digital Camera</a></li>
+		<li><a href="">Computer</a></li>
+		<li><a href="">Shortcodes</a></li>
+		<li><a href="">Camera</a></li>
+		<li><a href="">Blogs</a></li>
+		<li><a href="">Shop</a></li>
+		<li><a href="">Left Sidebar</a></li>
+		<li><a href="">Right Sidebar</a></li>
+		<li><a href="">Electronic</a></li>
+		<li><a href="">Canon Camera</a></li>
+		<li><a href="">Sony Camera</a></li>
+		<li><a href="">Digital Camera</a></li>
+		<li><a href="">Computer</a></li>
+		<li><a href="">Shortcodes</a></li>
+		<li><a href="">Camera</a></li>
+		<li><a href="">Blogs</a></li>
+		<li><a href="">Shop</a></li>
+		<li><a href="">Left Sidebar</a></li>
+		<li><a href="">Right Sidebar</a></li>
+		<li><a href="">Electronic</a></li>
+		<li><a href="">Canon Camera</a></li>
+		<li><a href="">Sony Camera</a></li>
+		<li><a href="">Digital Camera</a></li>
+		<li><a href="">Computer</a></li>
+		<li><a href="">Shortcodes</a></li>
+		<li><a href="">Camera</a></li>
+		<li><a href="">Blogs</a></li>
+		<li><a href="">Shop</a></li>
+		<li><a href="">Left Sidebar</a></li>
+		<li><a href="">Right Sidebar</a></li>
+		<li><a href="">Electronic</a></li>
+		<li><a href="">Canon Camera</a></li>
+		<li><a href="">Sony Camera</a></li>
+		<li><a href="">Digital Camera</a></li>
+		<li><a href="">Computer</a></li>
+		<li><a href="">Shortcodes</a></li>
+		<li><a href="">Camera</a></li>
+		<li><a href="">Blogs</a></li>
+		<li><a href="">Shop</a></li>
+		<li><a href="">Left Sidebar</a></li>
+		<li><a href="">Right Sidebar</a></li>
+		<li><a href="">Electronic</a></li>
+		<li><a href="">Canon Camera</a></li>
+		<li><a href="">Sony Camera</a></li>
+		<li><a href="">Digital Camera</a></li>
+		<li><a href="">Computer</a></li>
+		<li><a href="">Shortcodes</a></li>
+		<li><a href="">Camera</a></li>
+		<li><a href="">Blogs</a></li>
+		<li><a href="">Shop</a></li>
+		<li><a href="">Left Sidebar</a></li>
+		<li><a href="">Right Sidebar</a></li>
+	</ul>
+</div>
+<input type="hidden" class="show-categories" value="0"/>
+<div class="categories" style="padding-top: 1px;">
+	<div class="title-categories-rs"><i class="fa fa-codepen"></i> Danh Mục <i class="fa fa-angle-down pull-right list-cate"></i></div>
+	<ul class="menu-mega menu-cate-show" style="display: none;">
 		<li><a href="">Electronic</a></li>
 		<li><a href="">Canon Camera</a></li>
 		<li><a href="">Sony Camera</a></li>
