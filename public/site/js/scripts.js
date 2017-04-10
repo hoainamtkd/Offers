@@ -109,7 +109,6 @@ jQuery.fn.selText = function() {
     });
     // End fix header to top
     // Show Cate
-
     $('.title-categories-rs').click(function(){
         var display = $('.show-categories').val();
         if(display == 0){
@@ -124,6 +123,7 @@ jQuery.fn.selText = function() {
             $('.show-categories').val(0);
             $('.title-categories-rs').attr('style','margin-bottom: 10px;')
         }
-            
     });
-    // End Show Cate        }
+    // End Show Cate 
+
+
